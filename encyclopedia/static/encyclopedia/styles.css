@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+code {
+  white-space: pre;
+}
+
+h1 {
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+textarea {
+  height: 90vh;
+  width: 80%;
+}
+
+.main {
+  height: 100vh;
+  /* padding: 10px; */
+}
+
+.search {
+  width: 100%;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.sidebar {
+  background-color: #f0f0f0;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-top: 5px;
+}
+
+.error_page_content {
+  text-align: center;
+  background-color: lightsalmon;
+  color: lightyellow;
+}
+
+.edit {
+  text-align: right;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+.form {
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: lightgoldenrodyellow;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.form > .title {
+  width: 100%;
+}
+
+.form > h5,
+h6 {
+  width: 100%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.form > textarea {
+  width: 100%;
+  min-height: 4rem;
+  max-height: 24rem;
+  /* height: 6rem; */
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
+}
